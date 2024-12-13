@@ -1,0 +1,1 @@
+This repository demonstrates a race condition bug in a shell script.  Two processes write to files concurrently, resulting in non-deterministic output depending on process scheduling. The bug is demonstrated in `bug.sh` and a solution is provided in `bugSolution.sh`. The solution uses locking mechanisms to prevent concurrent access to the files.
